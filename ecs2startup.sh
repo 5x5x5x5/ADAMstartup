@@ -42,9 +42,10 @@ export ADAM_HOME=/home/ubuntu/adam
 echo 'export ADAM_HOME=/home/ubuntu/adam' >> ~/.bashrc
 
 
-alias adam-submit="${ADAM_HOME}/bin/adam-submit"
-alias adam-shell="${ADAM_HOME}/bin/adam-shell"
+alias adam-submit="/home/ubuntu/adam/bin/adam-submit"
+alias adam-shell="/home/ubuntu/adam/bin/adam-shell"
 
+source ~/.bashrc
 
 
 
